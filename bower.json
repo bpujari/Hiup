@@ -1,0 +1,26 @@
+{
+  "name": "Hiup",
+  "description": "Hiup for landing page",
+  "main": "",
+  "authors": [
+    "Bickey Pujari"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "app"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "Materialize": "materialize#^0.97.5",
+    "font-awesome": "fontawesome#^4.5.0",
+    "ScrollToFixed": "^1.0.6",
+    "simpleParallax": "simple-parallax#*",
+    "wow": "wowjs#^1.1.2"
+  }
+}

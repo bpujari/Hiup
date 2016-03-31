@@ -1,0 +1,17 @@
+.app-info {
+	padding-top: 4%;
+	padding-bottom: 3%;
+	background: #f7f7f7;
+	p {
+		margin: 0;
+	}
+	.col {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		&:hover {
+			color: #A08919;
+			box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
+			transition: all 0.4s ease-in-out;
+		}
+	}
+}
