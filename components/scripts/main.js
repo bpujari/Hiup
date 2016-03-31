@@ -16,6 +16,17 @@ $(document).ready(function() {
  
 });
 
+$(document).ready(function() {
+
+  $("#testimonials-carousel").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      singleItem : true
+ 
+  });
+ 
+});
+
 // Header Scroll
 $('.navigation').scrollToFixed();
 

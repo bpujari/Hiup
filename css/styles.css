@@ -32,6 +32,9 @@ h3 {
 h4 {
   font-size: 18px; }
 
+h5 {
+  font-size: 16px; }
+
 #wrapper {
   position: relative; }
 
@@ -68,11 +71,33 @@ h4 {
     #footer .footer-bottom p {
       margin: 0; }
 
-input:not([type]):focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=search]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=url]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+input:not([type]):focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
   border-color: #ffcd00;
   box-shadow: 0 1px 0 0 #ffcd00; }
 
-input:not([type]):focus:not([readonly]) + label, input[type=date]:focus:not([readonly]) + label, input[type=datetime-local]:focus:not([readonly]) + label, input[type=email]:focus:not([readonly]) + label, input[type=number]:focus:not([readonly]) + label, input[type=password]:focus:not([readonly]) + label, input[type=search]:focus:not([readonly]) + label, input[type=tel]:focus:not([readonly]) + label, input[type=text]:focus:not([readonly]) + label, input[type=time]:focus:not([readonly]) + label, input[type=url]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+input:not([type]):focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #ffcd00; }
 
 .intro-block {
@@ -113,7 +138,7 @@ input:not([type]):focus:not([readonly]) + label, input[type=date]:focus:not([rea
     line-height: 1;
     margin: 5px;
     text-align: left;
-    color: inherit;
+    color: #263238;
     height: auto;
     border-radius: 0px; }
     .intro-block .download-btn .btn:hover {
@@ -167,8 +192,14 @@ input:not([type]):focus:not([readonly]) + label, input[type=date]:focus:not([rea
   padding-top: 4%;
   padding-bottom: 3%;
   background: #f7f7f7; }
+  @media (max-width: 767px) {
+    .app-info h2 {
+      font-size: 24px; } }
   .app-info p {
     margin: 0; }
+    @media (max-width: 767px) {
+      .app-info p {
+        font-size: 14px; } }
   .app-info .col {
     padding-top: 10px;
     padding-bottom: 10px; }
@@ -184,6 +215,14 @@ input:not([type]):focus:not([readonly]) + label, input[type=date]:focus:not([rea
   @media (max-width: 992px) {
     .features h2 {
       margin-top: 0; } }
+  @media (max-width: 767px) {
+    .features h2 {
+      font-size: 24px; } }
+  .features p {
+    margin: 0; }
+    @media (max-width: 767px) {
+      .features p {
+        font-size: 14px; } }
   .features img {
     max-width: 100%;
     display: block; }
@@ -230,8 +269,10 @@ input:not([type]):focus:not([readonly]) + label, input[type=date]:focus:not([rea
     background: #f7f7f7;
     color: #9e9e9e;
     font-size: 18px;
+    line-height: 1;
+    height: auto;
     margin-right: 10px;
-    padding: 0 1rem; }
+    padding: 1rem; }
     .login-web-app .btn:hover {
       color: #ffcd00; }
     .login-web-app .btn .fa {
@@ -279,3 +320,154 @@ input:not([type]):focus:not([readonly]) + label, input[type=date]:focus:not([rea
       color: #333;
       font-size: 16px;
       font-weight: 700; }
+
+.employers-block {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  background: #212121 url(../images/bg-img.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  z-index: 1; }
+  .employers-block .container {
+    position: relative;
+    z-index: 2; }
+  @media (max-width: 767px) {
+    .employers-block {
+      background-size: cover !important;
+      background-position: 50% 50% !important; } }
+  .employers-block h2 {
+    font-weight: 700;
+    color: #ffcd00;
+    margin-top: 0; }
+    @media (max-width: 767px) {
+      .employers-block h2 {
+        font-size: 24px; } }
+  .employers-block h3 {
+    color: #fff;
+    margin: 0 0 30px; }
+    @media (max-width: 767px) {
+      .employers-block h3 {
+        font-size: 18px; } }
+  .employers-block input:not([type]),
+  .employers-block input[type=date],
+  .employers-block input[type=datetime-local],
+  .employers-block input[type=email],
+  .employers-block input[type=number],
+  .employers-block input[type=password],
+  .employers-block input[type=search],
+  .employers-block input[type=tel],
+  .employers-block input[type=text],
+  .employers-block input[type=time],
+  .employers-block input[type=url],
+  .employers-block textarea.materialize-textarea {
+    border-bottom: 1px solid #fff; }
+  .employers-block .input-field label {
+    color: #fff; }
+  .employers-block .btn {
+    background: #fff;
+    border-radius: 0;
+    color: #263238;
+    display: inline-block;
+    height: auto;
+    line-height: 1;
+    margin: 5px;
+    padding: 19px 33px; }
+    .employers-block .btn:hover {
+      color: #ffcd00; }
+
+.info-block {
+  padding-top: 4%;
+  padding-bottom: 3%;
+  background: #f7f7f7; }
+  @media (max-width: 767px) {
+    .info-block h2 {
+      font-size: 24px; } }
+  .info-block .title {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 40px; }
+    @media (max-width: 767px) {
+      .info-block .title {
+        font-size: 30px;
+        margin-bottom: 20px; } }
+  .info-block p {
+    margin: 0; }
+    @media (max-width: 767px) {
+      .info-block p {
+        font-size: 14px; } }
+  .info-block .col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #dedede; }
+    .info-block .col:hover {
+      color: #A08919;
+      box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+      transition: all 0.4s ease-in-out; }
+
+.work-block {
+  padding-top: 4%;
+  padding-bottom: 4%; }
+  @media (max-width: 767px) {
+    .work-block h2 {
+      font-size: 24px; } }
+  .work-block .title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 0; }
+    @media (max-width: 767px) {
+      .work-block .title {
+        font-size: 30px;
+        margin-bottom: 20px; } }
+  .work-block p {
+    margin: 0; }
+    @media (max-width: 767px) {
+      .work-block p {
+        font-size: 14px; } }
+  .work-block .col {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .work-block .col:hover {
+      color: #A08919;
+      box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+      transition: all 0.4s ease-in-out; }
+
+.testimonials {
+  background: #f7f7f7;
+  padding-top: 4%;
+  padding-bottom: 4%; }
+
+#testimonials-carousel .item {
+  margin: 3px; }
+  #testimonials-carousel .item img {
+    display: inline-block;
+    width: 100%; }
+
+#testimonials-carousel .grabbing {
+  cursor: url(/images/grabbing.png) 8 8, move; }
+
+.testimonials-holder {
+  text-align: center; }
+  .testimonials-holder img {
+    border-radius: 50%;
+    height: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 6rem; }
+  .testimonials-holder .text-wrap {
+    overflow: hidden; }
+    .testimonials-holder .text-wrap h5 {
+      letter-spacing: 0.02rem;
+      line-height: 1.72rem;
+      margin: 0 0 2rem;
+      opacity: 0.87; }
+    .testimonials-holder .text-wrap p {
+      letter-spacing: 0.02rem;
+      line-height: 1.72rem;
+      margin: 0 0 1.72rem;
+      opacity: 0.64; }
