@@ -51,11 +51,8 @@
 .recruters-block {
 	overflow: hidden;
 	position: relative;
-	padding-top: 4%;
-	padding-bottom: 4%;
-	h2 {
-		margin-top: 0;
-	}
+	padding-top: 2%;
+	padding-bottom: 3%;
 	p {
 		margin: 0;
 	}
@@ -83,7 +80,7 @@
 // =============================================
 // Start Info Block
 .info-block {
-	padding-top: 4%;
+	padding-top: 3%;
 	padding-bottom: 3%;
 	background: #f7f7f7;
 	h2 {
@@ -93,7 +90,6 @@
 	}
 	.title {
 		font-size: 40px;
-		margin-top: 0;
 		margin-bottom: 40px;
 		@media(max-width:767px) {
 			font-size: 30px;
@@ -106,10 +102,10 @@
 			font-size: 14px;
 		}
 	}
-	.col {
-		padding-top: 10px;
-		padding-bottom: 10px;
-		border: 1px solid #dedede;
+	.text-wrap {
+		margin-bottom: 20px;
+		padding: 10px;
+		background: #fff;
 		&:hover {
 			color: #A08919;
 			box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
@@ -199,6 +195,19 @@
 			margin: 0 0 1.72rem;
 			opacity: 0.64;
   	}
+	}
+	.btn {
+		background: #fff;
+		border-radius: 0;
+		color: #263238;
+		display: inline-block;
+		height: auto;
+		line-height: 1;
+		margin: 5px;
+		padding: 19px 33px;
+		&:hover {
+			color: #ffcd00;
+		}
 	}
 }
 // End Testimonials
