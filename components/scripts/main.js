@@ -76,3 +76,14 @@ wow.init();
 $(function () {
     $('.sameHeight').matchHeight();
 });
+
+// Recruters carousel
+$(document).ready(function() {
+ 
+  $("#recruters").owlCarousel({
+    items : 4,
+    lazyLoad : true,
+    autoPlay: 3000
+  }); 
+ 
+});

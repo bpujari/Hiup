@@ -1,10 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic);
 * {
   box-sizing: border-box; }
 
 body {
   background: #fff;
   color: #263238;
-  font: 18px / 24px "hiup-medium";
+  font: 16px / 20px "Lato", sans-serif;
   font-style: normal;
   font-weight: 400; }
 
@@ -281,6 +282,9 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 #carousel .grabbing {
   cursor: url(/images/grabbing.png) 8 8, move; }
 
+.company-block h2 {
+  margin-top: 5%; }
+
 #work-carousel {
   overflow: hidden; }
   #work-carousel .item {
@@ -394,26 +398,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     @media (max-width: 767px) {
       .employers-block h2 {
         font-size: 24px; } }
-  .employers-block h3 {
-    color: #fff;
-    margin: 0 0 30px; }
-    @media (max-width: 767px) {
-      .employers-block h3 {
-        font-size: 18px; } }
-  .employers-block input:not([type]),
-  .employers-block input[type=date],
-  .employers-block input[type=datetime-local],
-  .employers-block input[type=email],
-  .employers-block input[type=number],
-  .employers-block input[type=password],
-  .employers-block input[type=search],
-  .employers-block input[type=tel],
-  .employers-block input[type=text],
-  .employers-block input[type=time],
-  .employers-block input[type=url],
-  .employers-block textarea.materialize-textarea {
-    border-bottom: 1px solid #fff; }
-  .employers-block .input-field label {
+  .employers-block p {
     color: #fff; }
   .employers-block .btn {
     background: #fff;
@@ -426,6 +411,29 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     padding: 19px 33px; }
     .employers-block .btn:hover {
       color: #ffcd00; }
+
+.recruters-block {
+  overflow: hidden;
+  position: relative;
+  padding-top: 4%;
+  padding-bottom: 4%; }
+  .recruters-block h2 {
+    margin-top: 0; }
+  .recruters-block p {
+    margin: 0; }
+
+#recruters .item {
+  margin: 3px;
+  text-align: center; }
+  #recruters .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; }
+    #recruters .item img .company {
+      font-weight: bold; }
+    #recruters .item img .country {
+      opacity: 0.8; }
 
 .info-block {
   padding-top: 4%;
@@ -485,8 +493,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .testimonials {
   background: #f7f7f7;
-  padding-top: 4%;
-  padding-bottom: 4%; }
+  padding-top: 2%;
+  padding-bottom: 2%; }
 
 #testimonials-carousel .item {
   margin: 3px; }

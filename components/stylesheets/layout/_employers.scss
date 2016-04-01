@@ -28,29 +28,7 @@
 			font-size: 24px;
 		}
 	}
-	h3 {
-		color: #fff;
-		margin: 0 0 30px;
-		@media(max-width: 767px) {
-			font-size: 18px;
-		}
-	}
-
-	input:not([type]),
-	input[type=date],
-	input[type=datetime-local],
-	input[type=email],
-	input[type=number],
-	input[type=password],
-	input[type=search],
-	input[type=tel],
-	input[type=text],
-	input[type=time],
-	input[type=url],
-	textarea.materialize-textarea {
-		border-bottom: 1px solid #fff;
-	}
-	.input-field label {
+	p {
 		color: #fff;
 	}
 	.btn {
@@ -68,6 +46,40 @@
 	}
 }
 // End Employers Block
+// =============================================
+//  Start recruters
+.recruters-block {
+	overflow: hidden;
+	position: relative;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	h2 {
+		margin-top: 0;
+	}
+	p {
+		margin: 0;
+	}
+}
+
+#recruters {
+	.item {
+  	margin: 3px;
+  	text-align: center;
+  	img {
+  		display: block;
+  		width: 100%;
+  		height: auto;
+  		margin-bottom: 10px;
+  		.company {
+  			font-weight: bold;
+  		}
+  		.country {
+  			opacity: 0.8;
+  		}
+		}
+	}
+}
+// End recruters
 // =============================================
 // Start Info Block
 .info-block {
@@ -146,8 +158,8 @@
 // Start Testimonials
 .testimonials {
 	background: #f7f7f7;
-	padding-top: 4%;
-	padding-bottom: 4%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 #testimonials-carousel {
