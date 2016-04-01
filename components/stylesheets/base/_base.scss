@@ -45,6 +45,8 @@ h5 {font-size: 16px;}
 	color: #9e9e9e;
 	padding-top: 2%;
 	.brand-logo {
+		display: block;
+		margin-top: 20px;
 		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 		color: #ffcd00;
 		font-family: "Hiho-Brand";
@@ -55,6 +57,10 @@ h5 {font-size: 16px;}
 			margin-bottom: 15px;
 			a {
 				color: #9e9e9e;
+				font-size: 14px;
+				@media(max-width:359px) {
+					font-size: 12px;
+				}
 				&:hover {
 					color: #ffcd00;
 					transition: all 0.3s ease-out;
@@ -94,6 +100,9 @@ h5 {font-size: 16px;}
 		padding: 20px 0;
 		p {
 			margin: 0;
+			@media(max-width:767px){
+				font-size: 14px;
+			}
 		}
 	}
 }

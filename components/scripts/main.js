@@ -72,8 +72,7 @@ wow = new WOW(
 )
 wow.init();
 
-
-
+//  Match height
 $(function () {
     $('.sameHeight').matchHeight();
 });
