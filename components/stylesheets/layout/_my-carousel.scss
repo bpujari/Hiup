@@ -18,3 +18,21 @@
     cursor:url(/images/grabbing.png) 8 8, move;
 	}
 }
+
+#work-carousel {
+	overflow: hidden;
+	.item {
+		margin: 3px;
+		max-width: 200px;
+		max-height: 200px;
+		overflow: hidden;
+		img {
+			width: 100%;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+	.grabbing { 
+    cursor:url(/images/grabbing.png) 8 8, move;
+	}
+}

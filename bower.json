@@ -21,6 +21,7 @@
     "font-awesome": "fontawesome#^4.5.0",
     "ScrollToFixed": "^1.0.6",
     "simpleParallax": "simple-parallax#*",
-    "wow": "wowjs#^1.1.2"
+    "wow": "wowjs#^1.1.2",
+    "matchHeight": "matchheight#^0.7.0"
   }
 }

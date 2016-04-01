@@ -35,7 +35,8 @@ gulp.task('uglify-js', function() {
     'components/libs/owlcarousel/owl-carousel/owl.carousel.js',
     'components/libs/ScrollToFixed/jquery-scrolltofixed.js',
     'components/libs/simpleParallax/js/jquery.simpleparallax.js',
-    'components/libs/wow/dist/wow.js'])
+    'components/libs/wow/dist/wow.js',
+    'components/libs/matchHeight/dist/jquery.matchHeight.js'])
   	.pipe(rename({
 	    suffix: ".min",
 	    extname: ".js"

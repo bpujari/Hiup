@@ -19,6 +19,11 @@ body{
   url:('Typ1451-Bold.eot');
 }
 
+@font-face {
+    font-family: "Hiho-Brand";
+    src: url("Typ1451-Bold.ttf"), url("Typ1451-Bold.eot");
+}
+
 a {
 	outline: none;
 	&:focus {
@@ -39,11 +44,24 @@ h5 {font-size: 16px;}
 	background: #212121;
 	color: #9e9e9e;
 	padding-top: 2%;
+	.brand-logo {
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+		color: #ffcd00;
+		font-family: "Hiho-Brand";
+		font-size: 30px;
+	}
 	.contact-info-lists {
 		li {
 			margin-bottom: 15px;
 			a {
 				color: #9e9e9e;
+				&:hover {
+					color: #ffcd00;
+					transition: all 0.3s ease-out;
+					span {
+					background: #ffcd00;
+					}
+				}
 				.btn {
 					background: #fff;
 			    border-radius: 50%;

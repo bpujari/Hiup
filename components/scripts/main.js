@@ -16,11 +16,26 @@ $(document).ready(function() {
  
 });
 
+// Work Carousel
+$(document).ready(function() {
+
+  $("#work-carousel").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+ 
+});
+
 $(document).ready(function() {
 
   $("#testimonials-carousel").owlCarousel({
  
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      autoPlay: 4000, //Set AutoPlay to 4 seconds
       singleItem : true
  
   });
@@ -56,3 +71,9 @@ wow = new WOW(
   }
 )
 wow.init();
+
+
+
+$(function () {
+    $('.sameHeight').matchHeight();
+});
