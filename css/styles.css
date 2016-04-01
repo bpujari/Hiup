@@ -78,6 +78,9 @@ h5 {
         text-align: center;
         width: 35px;
         margin-right: 20px; }
+        @media (max-width: 359px) {
+          #footer .contact-info-lists li a .btn {
+            margin-right: 10px; } }
         #footer .contact-info-lists li a .btn .fa {
           color: #212121; }
   #footer .materialize-textarea {
@@ -422,6 +425,12 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   .recruters-block p {
     margin: 0; }
 
+#recruters .company {
+  font-weight: bold; }
+
+#recruters .country {
+  opacity: 0.8; }
+
 #recruters .item {
   margin: 3px;
   text-align: center; }
@@ -430,10 +439,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     width: 100%;
     height: auto;
     margin-bottom: 10px; }
-    #recruters .item img .company {
-      font-weight: bold; }
-    #recruters .item img .country {
-      opacity: 0.8; }
 
 .info-block {
   padding-top: 4%;
