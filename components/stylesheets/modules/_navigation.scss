@@ -18,6 +18,12 @@
 	.btn {
 		background-color: transparent;
 		border: 1px solid #ffcd00;
+
+		@media(min-width: 993px){
+			padding: 8px 20px;
+			height: auto;
+			line-height: 1;
+		}
 	}
 
 }

@@ -212,6 +212,11 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   .navigation .btn {
     background-color: transparent;
     border: 1px solid #ffcd00; }
+    @media (min-width: 993px) {
+      .navigation .btn {
+        padding: 8px 20px;
+        height: auto;
+        line-height: 1; } }
 
 .side-nav li {
   margin: 20px 0; }
