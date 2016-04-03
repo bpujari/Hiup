@@ -28,6 +28,9 @@ a {
   a:focus {
     outline: none; }
 
+h1 {
+  font-size: 40px; }
+
 h2 {
   font-size: 30px; }
 
@@ -222,7 +225,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   padding-bottom: 3%;
   background: #f7f7f7; }
   .job-info .title {
-    font-size: 40px;
     margin-bottom: 40px; }
     @media (max-width: 767px) {
       .job-info .title {
@@ -420,6 +422,9 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   position: relative;
   padding-top: 2%;
   padding-bottom: 3%; }
+  @media (max-width: 767px) {
+    .recruters-block .title {
+      font-size: 30px; } }
   .recruters-block p {
     margin: 0; }
 
@@ -446,7 +451,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     .info-block h2 {
       font-size: 24px; } }
   .info-block .title {
-    font-size: 40px;
     margin-bottom: 40px; }
     @media (max-width: 767px) {
       .info-block .title {
@@ -473,7 +477,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     .work-block h2 {
       font-size: 24px; } }
   .work-block .title {
-    font-size: 40px;
     margin-bottom: 40px;
     margin-top: 0; }
     @media (max-width: 767px) {
@@ -493,10 +496,13 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
       box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
       transition: all 0.4s ease-in-out; }
 
-.testimonials {
+.testimonials-block {
   background: #f7f7f7;
   padding-top: 2%;
   padding-bottom: 2%; }
+  @media (max-width: 767px) {
+    .testimonials-block .title {
+      font-size: 30px; } }
 
 #testimonials-carousel .item {
   margin: 3px; }

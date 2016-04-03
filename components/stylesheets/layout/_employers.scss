@@ -1,4 +1,4 @@
-// Start Employers block 
+// Start Employers Block
 .employers-block {
 	width: 100%;
 	height: auto;
@@ -47,12 +47,17 @@
 }
 // End Employers Block
 // =============================================
-//  Start recruters
+//  Start Recruters Block
 .recruters-block {
 	overflow: hidden;
 	position: relative;
 	padding-top: 2%;
 	padding-bottom: 3%;
+	.title {
+		@media(max-width:767px) {
+			font-size: 30px;
+		}
+	}
 	p {
 		margin: 0;
 	}
@@ -76,7 +81,7 @@
 		}
 	}
 }
-// End recruters
+// End Recruters Block
 // =============================================
 // Start Info Block
 .info-block {
@@ -89,7 +94,6 @@
 		}
 	}
 	.title {
-		font-size: 40px;
 		margin-bottom: 40px;
 		@media(max-width:767px) {
 			font-size: 30px;
@@ -125,7 +129,6 @@
 		}
 	}
 	.title {
-		font-size: 40px;
 		margin-bottom: 40px;
 		margin-top: 0;
 		@media(max-width:767px) {
@@ -151,11 +154,16 @@
 }
 // End Work Block
 // =============================================
-// Start Testimonials
-.testimonials {
+// Start Testimonials Block
+.testimonials-block {
 	background: #f7f7f7;
 	padding-top: 2%;
 	padding-bottom: 2%;
+	.title {
+		@media(max-width:767px) {
+			font-size: 30px;
+		}
+	}
 }
 
 #testimonials-carousel {
@@ -166,7 +174,6 @@
 			width: 100%;
 		}
 	}
-
 	.grabbing { 
     cursor:url(/images/grabbing.png) 8 8, move;
 	}
@@ -210,5 +217,5 @@
 		}
 	}
 }
-// End Testimonials
+// End Testimonials Block
 // =============================================
