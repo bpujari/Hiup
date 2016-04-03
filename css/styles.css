@@ -306,6 +306,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .login-web-app {
   background: rgba(33, 33, 33, 0.8) url(../images/bg-img.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
   color: #f7f7f7;
   padding-top: 6%;
   padding-bottom: 6%;
