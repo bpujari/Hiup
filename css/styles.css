@@ -10,16 +10,6 @@ body {
   font-weight: 400; }
 
 @font-face {
-  font-family: 'hiup-medium';
-  src: url("Typ1451-Medium.eot");
-  url: "Typ1451-Medium.eot"; }
-
-@font-face {
-  font-family: 'hiup-bold';
-  src: url("Typ1451-Bold.eot");
-  url: "Typ1451-Bold.eot"; }
-
-@font-face {
   font-family: "Hiho-Brand";
   src: url("Typ1451-Bold.ttf"), url("Typ1451-Bold.eot"); }
 
@@ -295,18 +285,18 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .company-block h2 {
   margin-top: 5%; }
 
-#work-carousel {
+#company-carousel {
   overflow: hidden; }
-  #work-carousel .item {
+  #company-carousel .item {
     margin: 0 auto;
     max-width: 200px;
     max-height: 200px;
     overflow: hidden; }
-    #work-carousel .item img {
+    #company-carousel .item img {
       width: 100%;
       display: inline-block;
       vertical-align: top; }
-  #work-carousel .grabbing {
+  #company-carousel .grabbing {
     cursor: url(/images/grabbing.png) 8 8, move; }
 
 .login-web-app {

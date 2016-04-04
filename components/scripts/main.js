@@ -19,7 +19,7 @@ $(document).ready(function() {
 // Work Carousel
 $(document).ready(function() {
 
-  $("#work-carousel").owlCarousel({
+  $("#company-carousel").owlCarousel({
  
       autoPlay: 3000, //Set AutoPlay to 3 seconds
  
