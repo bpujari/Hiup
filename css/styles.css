@@ -402,6 +402,9 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
         font-size: 24px; } }
   .employers-block p {
     color: #fff; }
+    @media (max-width: 767px) {
+      .employers-block p {
+        font-size: 14px; } }
   .employers-block .btn {
     background: #fff;
     border-radius: 0;

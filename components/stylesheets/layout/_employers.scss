@@ -30,6 +30,9 @@
 	}
 	p {
 		color: #fff;
+		@media(max-width: 767px) {
+			font-size: 14px;
+		}
 	}
 	.btn {
 		background: #fff;
