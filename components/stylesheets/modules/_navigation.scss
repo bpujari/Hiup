@@ -25,7 +25,14 @@
 			line-height: 1;
 		}
 	}
-
+	.icon {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 16px;
+		line-height: 1;
+		height: auto;
+		margin-right: 10px;
+	}
 }
 
 .side-nav {
@@ -33,10 +40,11 @@
 		margin: 20px 0;
 		&:hover,
 		&.active {
-			background: #ffcd00;
+			background: transparent;
 		}
 		a:hover {
 			color: #fff;
+			background: #ffcd00;
 		}
 	}
 }

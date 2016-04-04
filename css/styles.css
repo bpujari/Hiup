@@ -207,13 +207,21 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
         padding: 8px 20px;
         height: auto;
         line-height: 1; } }
+  .navigation .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 1;
+    height: auto;
+    margin-right: 10px; }
 
 .side-nav li {
   margin: 20px 0; }
   .side-nav li:hover, .side-nav li.active {
-    background: #ffcd00; }
+    background: transparent; }
   .side-nav li a:hover {
-    color: #fff; }
+    color: #fff;
+    background: #ffcd00; }
 
 .job-info {
   padding-top: 4%;
