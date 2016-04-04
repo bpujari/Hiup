@@ -440,6 +440,9 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     height: auto;
     margin-bottom: 10px; }
 
+#recruters .grabbing {
+  cursor: url(/images/grabbing.png) 8 8, move; }
+
 .info-block {
   padding-top: 3%;
   padding-bottom: 3%;
