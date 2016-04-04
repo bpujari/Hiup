@@ -16,7 +16,7 @@ $(document).ready(function() {
  
 });
 
-// Work Carousel
+// Company Carousel
 $(document).ready(function() {
 
   $("#company-carousel").owlCarousel({
@@ -31,14 +31,25 @@ $(document).ready(function() {
  
 });
 
+// Testimonials Carousel
 $(document).ready(function() {
 
   $("#testimonials-carousel").owlCarousel({
  
       autoPlay: 4000, //Set AutoPlay to 4 seconds
       singleItem : true
- 
   });
+ 
+});
+
+// Recruters Carousel
+$(document).ready(function() {
+ 
+  $("#recruters").owlCarousel({
+    items : 4,
+    lazyLoad : true,
+    autoPlay: 3000
+  }); 
  
 });
 
@@ -77,13 +88,3 @@ $(function () {
     $('.sameHeight').matchHeight();
 });
 
-// Recruters carousel
-$(document).ready(function() {
- 
-  $("#recruters").owlCarousel({
-    items : 4,
-    lazyLoad : true,
-    autoPlay: 3000
-  }); 
- 
-});
