@@ -36,61 +36,6 @@ h5 {
 #wrapper {
   position: relative; }
 
-#footer {
-  background: #212121;
-  color: #9e9e9e;
-  padding-top: 2%; }
-  #footer .brand-logo {
-    display: block;
-    margin-top: 20px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    color: #ffcd00;
-    font-family: "Hiho-Brand";
-    font-size: 30px; }
-  #footer .contact-info-lists li {
-    margin-bottom: 15px; }
-    #footer .contact-info-lists li a {
-      color: #9e9e9e;
-      font-size: 14px; }
-      @media (max-width: 359px) {
-        #footer .contact-info-lists li a {
-          font-size: 12px; } }
-      #footer .contact-info-lists li a:hover {
-        color: #ffcd00;
-        transition: all 0.3s ease-out; }
-        #footer .contact-info-lists li a:hover span {
-          background: #ffcd00; }
-      #footer .contact-info-lists li a .btn {
-        background: #fff;
-        border-radius: 50%;
-        display: inline-block;
-        font-size: 12px;
-        height: 35px;
-        line-height: 36px;
-        padding: 0;
-        text-align: center;
-        width: 35px;
-        margin-right: 20px; }
-        @media (max-width: 359px) {
-          #footer .contact-info-lists li a .btn {
-            margin-right: 10px; } }
-        #footer .contact-info-lists li a .btn .fa {
-          color: #212121; }
-  #footer .materialize-textarea {
-    padding: 0 !important; }
-  #footer .submit {
-    background: transparent;
-    color: #9e9e9e; }
-  #footer .footer-bottom {
-    border-top: 1px solid #9e9e9e;
-    margin-top: 2%;
-    padding: 20px 0; }
-    #footer .footer-bottom p {
-      margin: 0; }
-      @media (max-width: 767px) {
-        #footer .footer-bottom p {
-          font-size: 14px; } }
-
 input:not([type]):focus:not([readonly]),
 input[type=date]:focus:not([readonly]),
 input[type=datetime-local]:focus:not([readonly]),
@@ -148,6 +93,61 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
       min-height: 350px; } }
   .video-section .pattern-overlay .player {
     font-size: 1px; }
+
+#footer {
+  background: #212121;
+  color: #9e9e9e;
+  padding-top: 2%; }
+  #footer .brand-logo {
+    display: block;
+    margin-top: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    color: #ffcd00;
+    font-family: "Hiho-Brand";
+    font-size: 30px; }
+  #footer .contact-info-lists li {
+    margin-bottom: 15px; }
+    #footer .contact-info-lists li a {
+      color: #9e9e9e;
+      font-size: 14px; }
+      @media (max-width: 359px) {
+        #footer .contact-info-lists li a {
+          font-size: 12px; } }
+      #footer .contact-info-lists li a:hover {
+        color: #ffcd00;
+        transition: all 0.3s ease-out; }
+        #footer .contact-info-lists li a:hover span {
+          background: #ffcd00; }
+      #footer .contact-info-lists li a .btn {
+        background: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        font-size: 12px;
+        height: 35px;
+        line-height: 36px;
+        padding: 0;
+        text-align: center;
+        width: 35px;
+        margin-right: 20px; }
+        @media (max-width: 359px) {
+          #footer .contact-info-lists li a .btn {
+            margin-right: 10px; } }
+        #footer .contact-info-lists li a .btn .fa {
+          color: #212121; }
+  #footer .materialize-textarea {
+    padding: 0 !important; }
+  #footer .submit {
+    background: transparent;
+    color: #9e9e9e; }
+  #footer .footer-bottom {
+    border-top: 1px solid #9e9e9e;
+    margin-top: 2%;
+    padding: 20px 0; }
+    #footer .footer-bottom p {
+      margin: 0; }
+      @media (max-width: 767px) {
+        #footer .footer-bottom p {
+          font-size: 14px; } }
 
 .intro-block {
   width: 100%;
