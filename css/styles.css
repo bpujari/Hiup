@@ -341,6 +341,9 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   .login-web-app h2 {
     font-weight: 700;
     color: #ffcd00; }
+    @media (max-width: 479px) {
+      .login-web-app h2 {
+        margin: 0; } }
   .login-web-app h3 {
     font-weight: 700; }
   .login-web-app .btn {
