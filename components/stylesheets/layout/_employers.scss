@@ -79,7 +79,7 @@
   	img {
   		display: block;
   		width: 100%;
-  		height: auto;
+  		height: 150px;
   		margin-bottom: 10px;
 		}
 	}
@@ -116,6 +116,10 @@
 		margin-bottom: 20px;
 		padding: 10px;
 		background: #fff;
+		img {
+			width: 100%;
+			display: block;
+		}
 		&:hover {
 			color: #A08919;
 			box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
